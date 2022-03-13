@@ -80,6 +80,7 @@ spec:
               - --show-error
               - localhost:8080/healthz
             initialDelaySeconds: 5
+            timeoutSeconds: 3
           resources:
             requests:
               cpu: 500m
@@ -98,4 +99,3 @@ spec:
       - name: database-ca-cert
         secret:
           secretName: database-ca-cert
-
