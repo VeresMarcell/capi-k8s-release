@@ -2,7 +2,7 @@
 
 This collection of yaml, ytt, and go code packages together the bits that make [the CF API](http://v3-apidocs.cloudfoundry.org/) run in [cf-for-k8s](https://github.com/cloudfoundry/cf-for-k8s/). 
 
-### Deploying
+### Deploying....
 
 1. capi-k8s-release is best consumed as part of [cf-for-k8s](https://github.com/cloudfoundry/cf-for-k8s/)
 1. Clone the `cf-for-k8s` repository: `git clone https://github.com/cloudfoundry/cf-for-k8s.git`
